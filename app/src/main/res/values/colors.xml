@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button">#093EA6</color>
+    <color name="donor_btn">#9FD015</color>
+    <color name="collector_btn">#ff8101</color>
+</resources>

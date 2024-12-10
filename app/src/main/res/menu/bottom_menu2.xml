@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/c_dashboard"
+        android:icon="@drawable/baseline_list_24"
+        android:title="dashboard" />
+    <item
+        android:id="@+id/view_items"
+        android:title="view items"
+        android:icon="@drawable/baseline_format_list_bulleted_24"/>
+    <item
+        android:id="@+id/past_list"
+        android:title="past listings"
+        android:icon="@drawable/round_checklist_24"/>
+    <item
+        android:id="@+id/collector_profile"
+        android:title="profile"
+        android:icon="@drawable/profile"/>
+</menu>

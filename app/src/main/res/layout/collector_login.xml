@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    tools:context=".CollectorLogin"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/rectangle_box"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+    <TextView
+        android:id="@+id/c_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back Collector!!"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/c_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text_border"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        android:padding="20dp"
+        android:inputType="text"
+        android:hint="username"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/c_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_text_border"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:padding="20dp"
+        android:hint="password"
+        android:textSize="20dp"/>
+
+    <ProgressBar
+        android:id="@+id/c_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/c_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:backgroundTint="@color/button"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/c_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Customer ??  click here to register"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+</LinearLayout>
+</ScrollView>
