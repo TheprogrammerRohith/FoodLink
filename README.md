@@ -1,4 +1,5 @@
 Food Donation Application - An app connects Food donors (has surplus food i.e, restaurants,Marraige functions) and NGO's.
+
 ![image](https://github.com/user-attachments/assets/4a842aed-a919-4d3c-8ff0-8b8a768b44e6)
 ![image](https://github.com/user-attachments/assets/1de5cd54-43c3-4f09-97c5-9670a3268632)
 1.	After successfully authenticating, donors can add food item details and post them.
